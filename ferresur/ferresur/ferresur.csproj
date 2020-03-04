@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F4A56BF-0378-4103-B55B-BCCA5AFACC81}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ferresur</RootNamespace>
+    <AssemblyName>ferresur</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.19\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="calendario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="calendario.Designer.cs">
+      <DependentUpon>calendario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="categoria.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>categoria.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="conceptoEditarEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conceptoEditarEliminar.Designer.cs">
+      <DependentUpon>conceptoEditarEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conceptos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Conceptos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="controllador\calendarioController.cs" />
+    <Compile Include="controllador\controladorMenus.cs" />
+    <Compile Include="controllador\controlladorConcepto.cs" />
+    <Compile Include="conceptoInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conceptoInsert.Designer.cs">
+      <DependentUpon>conceptoInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controllador\empleadoNuevoController.cs" />
+    <Compile Include="controllador\generarLiquidacionController.cs" />
+    <Compile Include="controllador\libroUnicoController.cs" />
+    <Compile Include="controllador\LiquidacionCrearController.cs" />
+    <Compile Include="controllador\reporteReciboController.cs" />
+    <Compile Include="controllador\tipoLiquidacionController.cs" />
+    <Compile Include="empleadoAlta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empleadoAlta.Designer.cs">
+      <DependentUpon>empleadoAlta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="empleados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>empleados.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ferresur2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ferresur2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="generarLiquidacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="generarLiquidacion.Designer.cs">
+      <DependentUpon>generarLiquidacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="libroUnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="libroUnico.Designer.cs">
+      <DependentUpon>libroUnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="liquidacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>liquidacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LiquidacionCrear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiquidacionCrear.Designer.cs">
+      <DependentUpon>LiquidacionCrear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuEmpleados.Designer.cs">
+      <DependentUpon>menuEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuPrincipal.Designer.cs">
+      <DependentUpon>menuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modelo\asistencia.cs" />
+    <Compile Include="modelo\calendario.cs" />
+    <Compile Include="modelo\categoria.cs" />
+    <Compile Include="modelo\concepto.cs" />
+    <Compile Include="modelo\database.cs" />
+    <Compile Include="modelo\empleado.cs" />
+    <Compile Include="modelo\grupoFamiliar.cs" />
+    <Compile Include="modelo\liquidacion.cs" />
+    <Compile Include="modelo\liquidacion_Asistencia.cs" />
+    <Compile Include="modelo\reciboConcepto.cs" />
+    <Compile Include="modelo\reciboDeHaberes.cs" />
+    <Compile Include="modelo\tipoLiquidacion.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteReciboDeHaberes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteReciboDeHaberes.Designer.cs">
+      <DependentUpon>ReporteReciboDeHaberes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tipoLiquidacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tipoLiquidacion.Designer.cs">
+      <DependentUpon>tipoLiquidacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tiposdeliquidacion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tiposdeliquidacion.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="calendario.resx">
+      <DependentUpon>calendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conceptoEditarEliminar.resx">
+      <DependentUpon>conceptoEditarEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conceptoInsert.resx">
+      <DependentUpon>conceptoInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empleadoAlta.resx">
+      <DependentUpon>empleadoAlta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="generarLiquidacion.resx">
+      <DependentUpon>generarLiquidacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="libroUnico.resx">
+      <DependentUpon>libroUnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiquidacionCrear.resx">
+      <DependentUpon>LiquidacionCrear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuEmpleados.resx">
+      <DependentUpon>menuEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuPrincipal.resx">
+      <DependentUpon>menuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReporteReciboDeHaberes.resx">
+      <DependentUpon>ReporteReciboDeHaberes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tipoLiquidacion.resx">
+      <DependentUpon>tipoLiquidacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="categoria.xsc">
+      <DependentUpon>categoria.xsd</DependentUpon>
+    </None>
+    <None Include="categoria.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>categoria.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="categoria.xss">
+      <DependentUpon>categoria.xsd</DependentUpon>
+    </None>
+    <None Include="Conceptos.xsc">
+      <DependentUpon>Conceptos.xsd</DependentUpon>
+    </None>
+    <None Include="Conceptos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Conceptos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Conceptos.xss">
+      <DependentUpon>Conceptos.xsd</DependentUpon>
+    </None>
+    <None Include="empleados.xsc">
+      <DependentUpon>empleados.xsd</DependentUpon>
+    </None>
+    <None Include="empleados.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>empleados.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="empleados.xss">
+      <DependentUpon>empleados.xsd</DependentUpon>
+    </None>
+    <None Include="ferresur2DataSet.xsc">
+      <DependentUpon>ferresur2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ferresur2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ferresur2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ferresur2DataSet.xss">
+      <DependentUpon>ferresur2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="liquidacion.xsc">
+      <DependentUpon>liquidacion.xsd</DependentUpon>
+    </None>
+    <None Include="liquidacion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>liquidacion.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="liquidacion.xss">
+      <DependentUpon>liquidacion.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="tiposdeliquidacion.xsc">
+      <DependentUpon>tiposdeliquidacion.xsd</DependentUpon>
+    </None>
+    <None Include="tiposdeliquidacion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tiposdeliquidacion.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tiposdeliquidacion.xss">
+      <DependentUpon>tiposdeliquidacion.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imagenes\articulos.jpg" />
+    <Content Include="imagenes\barra separadora.png" />
+    <Content Include="imagenes\empleado.png" />
+    <Content Include="imagenes\logo.ico" />
+    <Content Include="imagenes\logoferresur.png" />
+    <Content Include="imagenes\proveedores.png" />
+    <Content Include="imagenes\ventas.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
