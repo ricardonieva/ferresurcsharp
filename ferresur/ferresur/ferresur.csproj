@@ -142,6 +142,7 @@
     <Compile Include="modelo\calendario.cs" />
     <Compile Include="modelo\categoria.cs" />
     <Compile Include="modelo\concepto.cs" />
+    <Compile Include="modelo\convertirNumerosALetras.cs" />
     <Compile Include="modelo\database.cs" />
     <Compile Include="modelo\empleado.cs" />
     <Compile Include="modelo\grupoFamiliar.cs" />

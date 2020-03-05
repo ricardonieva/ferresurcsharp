@@ -384,7 +384,7 @@
             // lblTotalNeto
             // 
             this.lblTotalNeto.AutoSize = true;
-            this.lblTotalNeto.Location = new System.Drawing.Point(312, 855);
+            this.lblTotalNeto.Location = new System.Drawing.Point(349, 855);
             this.lblTotalNeto.Name = "lblTotalNeto";
             this.lblTotalNeto.Size = new System.Drawing.Size(75, 25);
             this.lblTotalNeto.TabIndex = 32;
@@ -403,7 +403,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.142858F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(554, 809);
+            this.label25.Location = new System.Drawing.Point(572, 809);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(148, 25);
             this.label25.TabIndex = 30;
@@ -413,7 +413,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.142858F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(312, 809);
+            this.label26.Location = new System.Drawing.Point(349, 809);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(112, 25);
             this.label26.TabIndex = 29;
@@ -442,7 +442,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.142858F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(832, 809);
+            this.label29.Location = new System.Drawing.Point(831, 809);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(192, 25);
             this.label29.TabIndex = 34;
