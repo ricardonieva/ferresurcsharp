@@ -331,17 +331,20 @@
             // 
             // dgvConceptos
             // 
+            this.dgvConceptos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvConceptos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvConceptos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvConceptos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.codigo,
             this.detalle,
             this.haberes,
             this.deducciones});
-            this.dgvConceptos.Location = new System.Drawing.Point(12, 429);
+            this.dgvConceptos.Location = new System.Drawing.Point(116, 417);
             this.dgvConceptos.Name = "dgvConceptos";
+            this.dgvConceptos.RowHeadersVisible = false;
             this.dgvConceptos.RowHeadersWidth = 72;
             this.dgvConceptos.RowTemplate.Height = 31;
-            this.dgvConceptos.Size = new System.Drawing.Size(1032, 355);
+            this.dgvConceptos.Size = new System.Drawing.Size(814, 420);
             this.dgvConceptos.TabIndex = 27;
             // 
             // codigo
@@ -349,33 +352,33 @@
             this.codigo.HeaderText = "Codigo";
             this.codigo.MinimumWidth = 9;
             this.codigo.Name = "codigo";
-            this.codigo.Width = 80;
+            this.codigo.Width = 116;
             // 
             // detalle
             // 
             this.detalle.HeaderText = "Detalle";
             this.detalle.MinimumWidth = 9;
             this.detalle.Name = "detalle";
-            this.detalle.Width = 175;
+            this.detalle.Width = 113;
             // 
             // haberes
             // 
             this.haberes.HeaderText = "Haberes";
             this.haberes.MinimumWidth = 9;
             this.haberes.Name = "haberes";
-            this.haberes.Width = 175;
+            this.haberes.Width = 127;
             // 
             // deducciones
             // 
             this.deducciones.HeaderText = "Deducciones";
             this.deducciones.MinimumWidth = 9;
             this.deducciones.Name = "deducciones";
-            this.deducciones.Width = 175;
+            this.deducciones.Width = 167;
             // 
             // lblTotalHaberes
             // 
             this.lblTotalHaberes.AutoSize = true;
-            this.lblTotalHaberes.Location = new System.Drawing.Point(581, 855);
+            this.lblTotalHaberes.Location = new System.Drawing.Point(581, 933);
             this.lblTotalHaberes.Name = "lblTotalHaberes";
             this.lblTotalHaberes.Size = new System.Drawing.Size(75, 25);
             this.lblTotalHaberes.TabIndex = 33;
@@ -384,7 +387,7 @@
             // lblTotalNeto
             // 
             this.lblTotalNeto.AutoSize = true;
-            this.lblTotalNeto.Location = new System.Drawing.Point(349, 855);
+            this.lblTotalNeto.Location = new System.Drawing.Point(349, 933);
             this.lblTotalNeto.Name = "lblTotalNeto";
             this.lblTotalNeto.Size = new System.Drawing.Size(75, 25);
             this.lblTotalNeto.TabIndex = 32;
@@ -393,7 +396,7 @@
             // lblLugarYFecha
             // 
             this.lblLugarYFecha.AutoSize = true;
-            this.lblLugarYFecha.Location = new System.Drawing.Point(32, 855);
+            this.lblLugarYFecha.Location = new System.Drawing.Point(32, 933);
             this.lblLugarYFecha.Name = "lblLugarYFecha";
             this.lblLugarYFecha.Size = new System.Drawing.Size(75, 25);
             this.lblLugarYFecha.TabIndex = 31;
@@ -403,7 +406,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.142858F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(572, 809);
+            this.label25.Location = new System.Drawing.Point(572, 887);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(148, 25);
             this.label25.TabIndex = 30;
@@ -413,7 +416,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.142858F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(349, 809);
+            this.label26.Location = new System.Drawing.Point(349, 887);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(112, 25);
             this.label26.TabIndex = 29;
@@ -423,7 +426,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.142858F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(32, 809);
+            this.label27.Location = new System.Drawing.Point(32, 887);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(150, 25);
             this.label27.TabIndex = 28;
@@ -432,7 +435,7 @@
             // lblTotalDeducciones
             // 
             this.lblTotalDeducciones.AutoSize = true;
-            this.lblTotalDeducciones.Location = new System.Drawing.Point(832, 855);
+            this.lblTotalDeducciones.Location = new System.Drawing.Point(832, 933);
             this.lblTotalDeducciones.Name = "lblTotalDeducciones";
             this.lblTotalDeducciones.Size = new System.Drawing.Size(75, 25);
             this.lblTotalDeducciones.TabIndex = 35;
@@ -442,7 +445,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.142858F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(831, 809);
+            this.label29.Location = new System.Drawing.Point(831, 887);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(192, 25);
             this.label29.TabIndex = 34;
@@ -451,7 +454,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(32, 909);
+            this.label30.Location = new System.Drawing.Point(32, 987);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(151, 25);
             this.label30.TabIndex = 36;
@@ -460,7 +463,7 @@
             // lblSonEnPesos
             // 
             this.lblSonEnPesos.AutoSize = true;
-            this.lblSonEnPesos.Location = new System.Drawing.Point(189, 909);
+            this.lblSonEnPesos.Location = new System.Drawing.Point(189, 987);
             this.lblSonEnPesos.Name = "lblSonEnPesos";
             this.lblSonEnPesos.Size = new System.Drawing.Size(75, 25);
             this.lblSonEnPesos.TabIndex = 37;
@@ -470,7 +473,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1056, 985);
+            this.ClientSize = new System.Drawing.Size(1056, 1032);
+            this.Controls.Add(this.dgvConceptos);
             this.Controls.Add(this.lblSonEnPesos);
             this.Controls.Add(this.label30);
             this.Controls.Add(this.lblTotalDeducciones);
@@ -481,7 +485,6 @@
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label27);
-            this.Controls.Add(this.dgvConceptos);
             this.Controls.Add(this.lblPeriodo);
             this.Controls.Add(this.lblTipo);
             this.Controls.Add(this.lblFechaDeCobro);

@@ -48,12 +48,12 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblidLiquidacion = new System.Windows.Forms.Label();
             this.dgvDatosRecibos = new System.Windows.Forms.DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
-            this.lblTotal = new System.Windows.Forms.Label();
             this.idRecibo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ApellidoyNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cuil = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.botonVer = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.liquidacionBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.liquidacionBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.liquidacion)).BeginInit();
@@ -204,6 +204,8 @@
             // 
             this.dgvDatosRecibos.AllowUserToAddRows = false;
             this.dgvDatosRecibos.AllowUserToDeleteRows = false;
+            this.dgvDatosRecibos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvDatosRecibos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvDatosRecibos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDatosRecibos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idRecibo,
@@ -213,11 +215,46 @@
             this.dgvDatosRecibos.Location = new System.Drawing.Point(13, 206);
             this.dgvDatosRecibos.Name = "dgvDatosRecibos";
             this.dgvDatosRecibos.ReadOnly = true;
+            this.dgvDatosRecibos.RowHeadersVisible = false;
             this.dgvDatosRecibos.RowHeadersWidth = 72;
             this.dgvDatosRecibos.RowTemplate.Height = 31;
             this.dgvDatosRecibos.Size = new System.Drawing.Size(1031, 343);
             this.dgvDatosRecibos.TabIndex = 13;
             this.dgvDatosRecibos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvDatosRecibos_CellClick);
+            // 
+            // idRecibo
+            // 
+            this.idRecibo.HeaderText = "idRecibo";
+            this.idRecibo.MinimumWidth = 9;
+            this.idRecibo.Name = "idRecibo";
+            this.idRecibo.ReadOnly = true;
+            this.idRecibo.Width = 128;
+            // 
+            // ApellidoyNombre
+            // 
+            this.ApellidoyNombre.HeaderText = "Apellido y Nombre";
+            this.ApellidoyNombre.MinimumWidth = 9;
+            this.ApellidoyNombre.Name = "ApellidoyNombre";
+            this.ApellidoyNombre.ReadOnly = true;
+            this.ApellidoyNombre.Width = 194;
+            // 
+            // cuil
+            // 
+            this.cuil.HeaderText = "cuil";
+            this.cuil.MinimumWidth = 9;
+            this.cuil.Name = "cuil";
+            this.cuil.ReadOnly = true;
+            this.cuil.Width = 82;
+            // 
+            // botonVer
+            // 
+            this.botonVer.HeaderText = "Recibos";
+            this.botonVer.MinimumWidth = 9;
+            this.botonVer.Name = "botonVer";
+            this.botonVer.ReadOnly = true;
+            this.botonVer.Text = "Ver";
+            this.botonVer.UseColumnTextForButtonValue = true;
+            this.botonVer.Width = 88;
             // 
             // label8
             // 
@@ -236,40 +273,6 @@
             this.lblTotal.Size = new System.Drawing.Size(75, 25);
             this.lblTotal.TabIndex = 15;
             this.lblTotal.Text = "lblTotal";
-            // 
-            // idRecibo
-            // 
-            this.idRecibo.HeaderText = "idRecibo";
-            this.idRecibo.MinimumWidth = 9;
-            this.idRecibo.Name = "idRecibo";
-            this.idRecibo.ReadOnly = true;
-            this.idRecibo.Width = 80;
-            // 
-            // ApellidoyNombre
-            // 
-            this.ApellidoyNombre.HeaderText = "Apellido y Nombre";
-            this.ApellidoyNombre.MinimumWidth = 9;
-            this.ApellidoyNombre.Name = "ApellidoyNombre";
-            this.ApellidoyNombre.ReadOnly = true;
-            this.ApellidoyNombre.Width = 175;
-            // 
-            // cuil
-            // 
-            this.cuil.HeaderText = "cuil";
-            this.cuil.MinimumWidth = 9;
-            this.cuil.Name = "cuil";
-            this.cuil.ReadOnly = true;
-            this.cuil.Width = 175;
-            // 
-            // botonVer
-            // 
-            this.botonVer.HeaderText = "Recibos";
-            this.botonVer.MinimumWidth = 9;
-            this.botonVer.Name = "botonVer";
-            this.botonVer.ReadOnly = true;
-            this.botonVer.Text = "Ver";
-            this.botonVer.UseColumnTextForButtonValue = true;
-            this.botonVer.Width = 80;
             // 
             // libroUnico
             // 
