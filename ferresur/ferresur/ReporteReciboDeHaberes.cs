@@ -88,10 +88,12 @@ namespace ferresur
 
             lblTotalHaberes.Text = totalHaberes.ToString();
             lblTotalDeducciones.Text = totalDeducciones.ToString();
-            lblTotalNeto.Text = totalTotal.ToString();
+            lblTotalNeto.Text = totalTotal.ToString();  
             lblLugarYFecha.Text = "Aguilares-Tucuman "+DateTime.Now.ToString("dd/MM/yyyy");
 
-
+            modelo.convertirNumerosALetras convert = new modelo.convertirNumerosALetras();
+            lblSonEnPesos.Text = convert.convertir(totalTotal);
+            
         }
     }
 }

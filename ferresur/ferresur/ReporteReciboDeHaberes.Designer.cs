@@ -375,7 +375,7 @@
             // lblTotalHaberes
             // 
             this.lblTotalHaberes.AutoSize = true;
-            this.lblTotalHaberes.Location = new System.Drawing.Point(554, 855);
+            this.lblTotalHaberes.Location = new System.Drawing.Point(581, 855);
             this.lblTotalHaberes.Name = "lblTotalHaberes";
             this.lblTotalHaberes.Size = new System.Drawing.Size(75, 25);
             this.lblTotalHaberes.TabIndex = 33;
