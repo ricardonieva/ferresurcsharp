@@ -52,3 +52,26 @@ C:\Users\ricar\OneDrive\Documentos\ferresurcsharp\ferresurcsharp\ferresur\ferres
 C:\Users\ricar\OneDrive\Documentos\ferresurcsharp\ferresurcsharp\ferresur\ferresur\obj\Debug\ferresur.csproj.CopyComplete
 C:\Users\ricar\OneDrive\Documentos\ferresurcsharp\ferresurcsharp\ferresur\ferresur\obj\Debug\ferresur.exe
 C:\Users\ricar\OneDrive\Documentos\ferresurcsharp\ferresurcsharp\ferresur\ferresur\obj\Debug\ferresur.pdb
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\bin\Debug\ferresur.exe.config
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\bin\Debug\ferresur.exe
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\bin\Debug\ferresur.pdb
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\bin\Debug\MySql.Data.dll
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\bin\Debug\MySql.Data.xml
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.csprojResolveAssemblyReference.cache
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.calendario.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.conceptoEditarEliminar.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.ConceptoInsert.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.empleadoAlta.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.generarLiquidacion.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.libroUnico.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.LiquidacionCrear.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.menuEmpleados.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.menuPrincipal.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.NuevoArticulo.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.Properties.Resources.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.ReporteReciboDeHaberes.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.tipoLiquidacion.resources
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.csproj.GenerateResource.Cache
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.csproj.CoreCompileInputs.cache
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.exe
+C:\Users\gabriel\Desktop\Gestion de Datos\ferresurcsharp\ferresur\ferresur\ferresur\obj\Debug\ferresur.pdb

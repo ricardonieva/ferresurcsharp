@@ -72,6 +72,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Conceptos.xsd</DependentUpon>
     </Compile>
+    <Compile Include="controllador\ArticuloAltaController.cs" />
     <Compile Include="controllador\calendarioController.cs" />
     <Compile Include="controllador\controladorMenus.cs" />
     <Compile Include="controllador\controlladorConcepto.cs" />
@@ -102,6 +103,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ferresur2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ferresur2DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ferresur2DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="generarLiquidacion.cs">
       <SubType>Form</SubType>
@@ -138,6 +144,7 @@
     <Compile Include="menuPrincipal.Designer.cs">
       <DependentUpon>menuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="modelo\Articulo.cs" />
     <Compile Include="modelo\asistencia.cs" />
     <Compile Include="modelo\calendario.cs" />
     <Compile Include="modelo\categoria.cs" />
@@ -150,6 +157,7 @@
     <Compile Include="modelo\liquidacion_Asistencia.cs" />
     <Compile Include="modelo\reciboConcepto.cs" />
     <Compile Include="modelo\reciboDeHaberes.cs" />
+    <Compile Include="modelo\Rubro.cs" />
     <Compile Include="modelo\tipoLiquidacion.cs" />
     <Compile Include="NuevoArticulo.cs">
       <SubType>Form</SubType>
@@ -265,6 +273,17 @@
     </None>
     <None Include="ferresur2DataSet.xss">
       <DependentUpon>ferresur2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ferresur2DataSet1.xsc">
+      <DependentUpon>ferresur2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ferresur2DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ferresur2DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ferresur2DataSet1.xss">
+      <DependentUpon>ferresur2DataSet1.xsd</DependentUpon>
     </None>
     <None Include="liquidacion.xsc">
       <DependentUpon>liquidacion.xsd</DependentUpon>

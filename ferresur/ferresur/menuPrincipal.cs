@@ -28,5 +28,12 @@ namespace ferresur
         {
             Application.Exit();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            NuevoArticulo nuevoArticulo = new NuevoArticulo();
+            nuevoArticulo.Show();
+            this.Hide();
+        }
     }
 }
